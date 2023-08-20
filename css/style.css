@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 body{
     background: #eee;
@@ -38,7 +37,6 @@ ul{
     position: absolute;
     top: 70px;
     left: 0;
-    /* background: red; */
     width: 200px;
     opacity: 0;
     visibility: hidden;
@@ -48,8 +46,6 @@ ul{
 .main ul li ul li{
     width: 100%;
 
-}
-.main ul li{
 }
 .main ul li:hover>ul{
     opacity: 1;
